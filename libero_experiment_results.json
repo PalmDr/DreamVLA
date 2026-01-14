@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-01-14T08:53:25.329369",
+  "dataset": "LIBERO",
+  "settings": {
+    "train_samples": 2000,
+    "test_samples": 500,
+    "batch_size": 16,
+    "epochs": 10,
+    "hidden_dim": 512
+  },
+  "baseline": {
+    "final_loss": 0.08323195037245751,
+    "final_action_loss": 0.08323195037245751,
+    "eval_arm_mse": 0.027325931368977763,
+    "eval_gripper_acc": 0.728515625
+  },
+  "actor": {
+    "final_loss": 0.389433473110199,
+    "final_action_loss": 0.09522910434007645,
+    "final_l3_loss": 0.5884087390899658,
+    "eval_arm_mse": 0.04545090050669387,
+    "eval_gripper_acc": 0.552734375
+  },
+  "improvements": {
+    "arm_mse": -66.32882478177045,
+    "l3_reduction": 31.21841047995452
+  }
+}

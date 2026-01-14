@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-01-14T04:44:27.363923",
+  "baseline": {
+    "final_loss": 0.14483277034014463,
+    "final_action_loss": 0.1447811108082533,
+    "final_wm_loss": 0.00010331807743568788,
+    "vla_quality": {
+      "arm_mse": 0.009432308143004775,
+      "gripper_error": 0.0,
+      "total": 0.009432308143004775
+    },
+    "vla_generalization": {
+      "arm_mse": 0.009432308143004775,
+      "gripper_error": 0.0,
+      "total": 0.009432308143004775
+    },
+    "action_consistency": 0.008735052309930325,
+    "generalization": 0.009140200912952423,
+    "noise_robustness": 0.009479429107159376
+  },
+  "actor": {
+    "final_loss": 0.2131795659661293,
+    "final_action_loss": 0.14302306063473225,
+    "final_wm_loss": 0.00025704249856062233,
+    "final_l3_loss": 0.14005596563220024,
+    "vla_quality": {
+      "arm_mse": 0.008213195484131575,
+      "gripper_error": 0.0,
+      "total": 0.008213195484131575
+    },
+    "vla_generalization": {
+      "arm_mse": 0.008213195484131575,
+      "gripper_error": 0.0,
+      "total": 0.008213195484131575
+    },
+    "action_consistency": 0.00875618401914835,
+    "generalization": 0.009171627927571535,
+    "noise_robustness": 0.011272387579083443
+  },
+  "improvements": {
+    "vla_quality": 12.924860388253151,
+    "vla_generalization": 12.924860388253151,
+    "action_consistency": -0.24191851941174886,
+    "id_generalization": -0.34383286448963424,
+    "noise_robustness": -18.914203077587526
+  }
+}
