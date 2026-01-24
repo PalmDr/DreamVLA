@@ -1,0 +1,194 @@
+{
+  "timestamp": "2026-01-15T08:09:35.993306",
+  "experiment": "simulation_loss",
+  "baseline_arm_mse": 0.25274975830316543,
+  "all_results": [
+    {
+      "name": "baseline",
+      "config": {
+        "l3_weight": 0,
+        "l_sim_weight": 0,
+        "l_sim_inv_weight": 0
+      },
+      "arm_mse": 0.25274975830316543,
+      "gripper_acc": 0.718,
+      "pretrained": true
+    },
+    {
+      "name": "L3=0.005_PRIOR_WORK",
+      "config": {
+        "l3_weight": 0.005,
+        "l_sim_weight": 0,
+        "l_sim_inv_weight": 0
+      },
+      "arm_mse": 0.2610406200289726,
+      "gripper_acc": 0.762,
+      "pretrained": true
+    },
+    {
+      "name": "L3=0.01_PRIOR_WORK",
+      "config": {
+        "l3_weight": 0.01,
+        "l_sim_weight": 0,
+        "l_sim_inv_weight": 0
+      },
+      "arm_mse": 0.2702203816324472,
+      "gripper_acc": 0.75,
+      "pretrained": true
+    },
+    {
+      "name": "L3=0.05_PRIOR_WORK",
+      "config": {
+        "l3_weight": 0.05,
+        "l_sim_weight": 0,
+        "l_sim_inv_weight": 0
+      },
+      "arm_mse": 0.26338243156671526,
+      "gripper_acc": 0.836,
+      "pretrained": true
+    },
+    {
+      "name": "L_sim=0.001_NOVEL",
+      "config": {
+        "l3_weight": 0,
+        "l_sim_weight": 0.001,
+        "l_sim_inv_weight": 0
+      },
+      "arm_mse": 0.2584169444441795,
+      "gripper_acc": 0.824,
+      "pretrained": true
+    },
+    {
+      "name": "L_sim=0.005_NOVEL",
+      "config": {
+        "l3_weight": 0,
+        "l_sim_weight": 0.005,
+        "l_sim_inv_weight": 0
+      },
+      "arm_mse": 0.27821086394786837,
+      "gripper_acc": 0.846,
+      "pretrained": true
+    },
+    {
+      "name": "L_sim=0.01_NOVEL",
+      "config": {
+        "l3_weight": 0,
+        "l_sim_weight": 0.01,
+        "l_sim_inv_weight": 0
+      },
+      "arm_mse": 0.2526620717048645,
+      "gripper_acc": 0.738,
+      "pretrained": true
+    },
+    {
+      "name": "L_sim=0.05_NOVEL",
+      "config": {
+        "l3_weight": 0,
+        "l_sim_weight": 0.05,
+        "l_sim_inv_weight": 0
+      },
+      "arm_mse": 0.26937452287971975,
+      "gripper_acc": 0.698,
+      "pretrained": true
+    },
+    {
+      "name": "L_sim=0.1_NOVEL",
+      "config": {
+        "l3_weight": 0,
+        "l_sim_weight": 0.1,
+        "l_sim_inv_weight": 0
+      },
+      "arm_mse": 0.27682795411348343,
+      "gripper_acc": 0.798,
+      "pretrained": true
+    },
+    {
+      "name": "L_sim_inv=0.005_NOVEL",
+      "config": {
+        "l3_weight": 0,
+        "l_sim_weight": 0,
+        "l_sim_inv_weight": 0.005
+      },
+      "arm_mse": 0.2552214430272579,
+      "gripper_acc": 0.8,
+      "pretrained": true
+    },
+    {
+      "name": "L_sim_inv=0.01_NOVEL",
+      "config": {
+        "l3_weight": 0,
+        "l_sim_weight": 0,
+        "l_sim_inv_weight": 0.01
+      },
+      "arm_mse": 0.2558584703207016,
+      "gripper_acc": 0.82,
+      "pretrained": true
+    },
+    {
+      "name": "L_sim_inv=0.05_NOVEL",
+      "config": {
+        "l3_weight": 0,
+        "l_sim_weight": 0,
+        "l_sim_inv_weight": 0.05
+      },
+      "arm_mse": 0.2602098579108715,
+      "gripper_acc": 0.766,
+      "pretrained": true
+    },
+    {
+      "name": "L_sim=0.01+L_sim_inv=0.01_NOVEL",
+      "config": {
+        "l3_weight": 0,
+        "l_sim_weight": 0.01,
+        "l_sim_inv_weight": 0.01
+      },
+      "arm_mse": 0.2557765577733517,
+      "gripper_acc": 0.682,
+      "pretrained": true
+    },
+    {
+      "name": "L_sim=0.05+L_sim_inv=0.01_NOVEL",
+      "config": {
+        "l3_weight": 0,
+        "l_sim_weight": 0.05,
+        "l_sim_inv_weight": 0.01
+      },
+      "arm_mse": 0.26684155163168904,
+      "gripper_acc": 0.698,
+      "pretrained": true
+    },
+    {
+      "name": "ACTOR_L3=0.01_L_sim=0.01_L_sim_inv=0.01",
+      "config": {
+        "l3_weight": 0.01,
+        "l_sim_weight": 0.01,
+        "l_sim_inv_weight": 0.01
+      },
+      "arm_mse": 0.26137456461787223,
+      "gripper_acc": 0.732,
+      "pretrained": true
+    },
+    {
+      "name": "FROM_SCRATCH_baseline",
+      "config": {
+        "l3_weight": 0,
+        "l_sim_weight": 0,
+        "l_sim_inv_weight": 0
+      },
+      "arm_mse": 0.268325775206089,
+      "gripper_acc": 0.734,
+      "pretrained": false
+    },
+    {
+      "name": "FROM_SCRATCH_L_sim=0.01",
+      "config": {
+        "l3_weight": 0,
+        "l_sim_weight": 0.01,
+        "l_sim_inv_weight": 0
+      },
+      "arm_mse": 0.26999806049466135,
+      "gripper_acc": 0.702,
+      "pretrained": false
+    }
+  ]
+}

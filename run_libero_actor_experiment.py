@@ -428,7 +428,7 @@ def run_experiment():
 
     actor_history = train_actor(
         actor_model, actor_id, train_loader,
-        num_epochs=NUM_EPOCHS, lr=1e-4, l3_weight=0.1, device=device  # Lower L3 weight
+        num_epochs=NUM_EPOCHS, lr=1e-4, l3_weight=0.01, device=device  # Much lower L3 weight for ablation
     )
 
     # Evaluate ACTOR

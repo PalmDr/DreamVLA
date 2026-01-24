@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-14T08:53:25.329369",
+  "timestamp": "2026-01-15T02:06:48.090104",
   "dataset": "LIBERO",
   "settings": {
     "train_samples": 2000,
@@ -9,20 +9,20 @@
     "hidden_dim": 512
   },
   "baseline": {
-    "final_loss": 0.08323195037245751,
-    "final_action_loss": 0.08323195037245751,
-    "eval_arm_mse": 0.027325931368977763,
-    "eval_gripper_acc": 0.728515625
+    "final_loss": 0.0840577906370163,
+    "final_action_loss": 0.0840577906370163,
+    "eval_arm_mse": 0.04374578369606752,
+    "eval_gripper_acc": 0.712890625
   },
   "actor": {
-    "final_loss": 0.389433473110199,
-    "final_action_loss": 0.09522910434007645,
-    "final_l3_loss": 0.5884087390899658,
-    "eval_arm_mse": 0.04545090050669387,
-    "eval_gripper_acc": 0.552734375
+    "final_loss": 0.0915482079386711,
+    "final_action_loss": 0.08537363827228546,
+    "final_l3_loss": 0.6174569940567016,
+    "eval_arm_mse": 0.035983209701953456,
+    "eval_gripper_acc": 0.7421875
   },
   "improvements": {
-    "arm_mse": -66.32882478177045,
-    "l3_reduction": 31.21841047995452
+    "arm_mse": 17.744736379729943,
+    "l3_reduction": 24.541207957820035
   }
 }

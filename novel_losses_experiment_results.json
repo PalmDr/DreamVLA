@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-01-15T02:38:15.451802",
+  "dataset": "LIBERO",
+  "settings": {
+    "train_samples": 2000,
+    "test_samples": 500,
+    "batch_size": 16,
+    "epochs": 10,
+    "l5_weight": 0.1,
+    "l6_weight": 0.05
+  },
+  "results": {
+    "baseline": {
+      "arm_mse": 0.027778363932156935,
+      "gripper_acc": 0.71875,
+      "final_loss": 0.08538782167434693
+    },
+    "l5_only": {
+      "arm_mse": 0.028890213725389913,
+      "gripper_acc": 0.763671875,
+      "final_loss": 0.10409273380041123,
+      "final_l5": 0.17167392981052398
+    },
+    "l6_only": {
+      "arm_mse": 0.029464360486599617,
+      "gripper_acc": 0.732421875,
+      "final_loss": 0.09688490748405457,
+      "final_l6": 0.22674868726730346
+    },
+    "l5_l6_full": {
+      "arm_mse": 0.042475414578802884,
+      "gripper_acc": 0.74609375,
+      "final_loss": 0.11784205722808838,
+      "final_l5": 0.2125613420009613,
+      "final_l6": 0.23553305912017822
+    },
+    "from_scratch": {
+      "arm_mse": 0.032052265945822,
+      "gripper_acc": 0.69140625,
+      "final_loss": 0.11329270780086517
+    }
+  },
+  "improvements": {
+    "l5_only": -4.002574795075933,
+    "l6_only": -6.06945952094367,
+    "l5_l6_full": -52.90826588110278,
+    "from_scratch": -15.385722586482094
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "timestamp": "2026-01-15T22:03:50.190919",
+  "model": "SmolVLM (REAL)",
+  "num_train": 500,
+  "num_test": 200,
+  "epochs": 3,
+  "results": [
+    {
+      "name": "baseline",
+      "config": {},
+      "metrics": {
+        "mse_x": 0.02884923666715622,
+        "mse_y": 0.16093172132968903,
+        "mse_z": 0.10279952734708786,
+        "mse_roll": 0.0013404447818174958,
+        "mse_pitch": 0.0028420486487448215,
+        "mse_yaw": 0.0023690718226134777,
+        "mse_gripper": 0.053028885275125504,
+        "arm_mse": 0.04985534027218819,
+        "position_error_mean": 0.49592217803001404,
+        "position_error_std": 0.2165088802576065,
+        "rotation_error_mean": 0.07536998391151428,
+        "rotation_error_std": 0.029585588723421097,
+        "gripper_accuracy": 0.5350000262260437,
+        "jerk_mean": 0.13353869318962097,
+        "jerk_max": 0.8022399544715881,
+        "pred_magnitude": 0.13882294297218323,
+        "target_magnitude": 0.5264676809310913,
+        "long_horizon_mean_error": 0.04985534292354714,
+        "long_horizon_std_error": 0.0,
+        "long_horizon_max_error": 0.1414857804775238
+      }
+    },
+    {
+      "name": "L3=0.01",
+      "config": {
+        "l3": 0.01
+      },
+      "metrics": {
+        "mse_x": 0.02876465767621994,
+        "mse_y": 0.1557149440050125,
+        "mse_z": 0.10148116946220398,
+        "mse_roll": 0.0013738921843469143,
+        "mse_pitch": 0.0021366628352552652,
+        "mse_yaw": 0.002087610773742199,
+        "mse_gripper": 0.053145259618759155,
+        "arm_mse": 0.04859315603971481,
+        "position_error_mean": 0.4921562075614929,
+        "position_error_std": 0.20967316627502441,
+        "rotation_error_mean": 0.06870553642511368,
+        "rotation_error_std": 0.029700597748160362,
+        "gripper_accuracy": 0.5099999904632568,
+        "jerk_mean": 0.13073736429214478,
+        "jerk_max": 0.7847481966018677,
+        "pred_magnitude": 0.1319376826286316,
+        "target_magnitude": 0.5264676809310913,
+        "long_horizon_mean_error": 0.04859315687441267,
+        "long_horizon_std_error": 0.0,
+        "long_horizon_max_error": 0.13578073680400848
+      }
+    },
+    {
+      "name": "L_sim=0.01",
+      "config": {
+        "l_sim": 0.01
+      },
+      "metrics": {
+        "mse_x": 0.02879934012889862,
+        "mse_y": 0.14586979150772095,
+        "mse_z": 0.1009632870554924,
+        "mse_roll": 0.001137735671363771,
+        "mse_pitch": 0.0025020369794219732,
+        "mse_yaw": 0.0016830324893817306,
+        "mse_gripper": 0.05290354788303375,
+        "arm_mse": 0.046825867146253586,
+        "position_error_mean": 0.48299458622932434,
+        "position_error_std": 0.20630432665348053,
+        "rotation_error_mean": 0.06736013293266296,
+        "rotation_error_std": 0.028095658868551254,
+        "gripper_accuracy": 0.5350000262260437,
+        "jerk_mean": 0.12887121737003326,
+        "jerk_max": 0.8050788044929504,
+        "pred_magnitude": 0.14304094016551971,
+        "target_magnitude": 0.5264676809310913,
+        "long_horizon_mean_error": 0.04682587066898122,
+        "long_horizon_std_error": 0.0,
+        "long_horizon_max_error": 0.138550266623497
+      }
+    },
+    {
+      "name": "L_sim_inv=0.01",
+      "config": {
+        "l_sim_inv": 0.01
+      },
+      "metrics": {
+        "mse_x": 0.02864529937505722,
+        "mse_y": 0.13944292068481445,
+        "mse_z": 0.10111001878976822,
+        "mse_roll": 0.0012799667892977595,
+        "mse_pitch": 0.0017227593343704939,
+        "mse_yaw": 0.001539485645480454,
+        "mse_gripper": 0.05274223908782005,
+        "arm_mse": 0.045623406767845154,
+        "position_error_mean": 0.4777336120605469,
+        "position_error_std": 0.2029155045747757,
+        "rotation_error_mean": 0.06189106032252312,
+        "rotation_error_std": 0.026744818314909935,
+        "gripper_accuracy": 0.5350000262260437,
+        "jerk_mean": 0.12620531022548676,
+        "jerk_max": 0.806160569190979,
+        "pred_magnitude": 0.14804154634475708,
+        "target_magnitude": 0.5264676809310913,
+        "long_horizon_mean_error": 0.04562340998003492,
+        "long_horizon_std_error": 0.0,
+        "long_horizon_max_error": 0.13844788074493408
+      }
+    },
+    {
+      "name": "Combined",
+      "config": {
+        "l3": 0.005,
+        "l_sim": 0.005,
+        "l_sim_inv": 0.005
+      },
+      "metrics": {
+        "mse_x": 0.028896143659949303,
+        "mse_y": 0.13385146856307983,
+        "mse_z": 0.09940652549266815,
+        "mse_roll": 0.0013479744084179401,
+        "mse_pitch": 0.0018598411697894335,
+        "mse_yaw": 0.0014461567625403404,
+        "mse_gripper": 0.0526084341108799,
+        "arm_mse": 0.044468022882938385,
+        "position_error_mean": 0.47225284576416016,
+        "position_error_std": 0.19831298291683197,
+        "rotation_error_mean": 0.06128409504890442,
+        "rotation_error_std": 0.03004572167992592,
+        "gripper_accuracy": 0.5299999713897705,
+        "jerk_mean": 0.12422828376293182,
+        "jerk_max": 0.7829095721244812,
+        "pred_magnitude": 0.13800182938575745,
+        "target_magnitude": 0.5264676809310913,
+        "long_horizon_mean_error": 0.04446802070830017,
+        "long_horizon_std_error": 0.0,
+        "long_horizon_max_error": 0.13344471156597137
+      }
+    }
+  ]
+}

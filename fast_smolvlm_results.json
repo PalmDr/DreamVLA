@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-01-15T18:40:45.823052",
+  "model": "SmolVLM (REAL)",
+  "results": [
+    {
+      "name": "baseline",
+      "arm_mse": 0.2966535437107086,
+      "gripper_acc": 0.46,
+      "config": {}
+    },
+    {
+      "name": "L3=0.01_PRIOR",
+      "arm_mse": 0.2905542755126953,
+      "gripper_acc": 0.46,
+      "config": {
+        "l3": 0.01
+      }
+    },
+    {
+      "name": "L_sim=0.01_NOVEL",
+      "arm_mse": 0.29291830003261565,
+      "gripper_acc": 0.46,
+      "config": {
+        "l_sim": 0.01
+      }
+    },
+    {
+      "name": "L_sim_inv=0.01_NOVEL",
+      "arm_mse": 0.2916030794382095,
+      "gripper_acc": 0.46,
+      "config": {
+        "l_sim_inv": 0.01
+      }
+    }
+  ]
+}

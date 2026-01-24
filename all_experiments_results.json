@@ -1,0 +1,200 @@
+{
+  "timestamp": "2026-01-15T06:28:30.581532",
+  "dataset": "LIBERO",
+  "epochs": 10,
+  "baseline_arm_mse": 0.26430011439323425,
+  "all_results": [
+    {
+      "name": "baseline",
+      "config": {
+        "l3_weight": 0,
+        "l5_weight": 0,
+        "l6_weight": 0
+      },
+      "arm_mse": 0.26430011439323425,
+      "gripper_acc": 0.814,
+      "improvement_pct": 0.0,
+      "pretrained": true
+    },
+    {
+      "name": "L3=0.005",
+      "config": {
+        "l3_weight": 0.005,
+        "l5_weight": 0,
+        "l6_weight": 0
+      },
+      "arm_mse": 0.2594727170467377,
+      "gripper_acc": 0.744,
+      "improvement_pct": 1.8264832603569012,
+      "pretrained": true
+    },
+    {
+      "name": "L3=0.01",
+      "config": {
+        "l3_weight": 0.01,
+        "l5_weight": 0,
+        "l6_weight": 0
+      },
+      "arm_mse": 0.2643362808227539,
+      "gripper_acc": 0.76,
+      "improvement_pct": -0.013683849362939222,
+      "pretrained": true
+    },
+    {
+      "name": "L3=0.05",
+      "config": {
+        "l3_weight": 0.05,
+        "l5_weight": 0,
+        "l6_weight": 0
+      },
+      "arm_mse": 0.2661285462379456,
+      "gripper_acc": 0.75,
+      "improvement_pct": -0.6918013822691428,
+      "pretrained": true
+    },
+    {
+      "name": "L5=0.005_NOVEL",
+      "config": {
+        "l3_weight": 0,
+        "l5_weight": 0.005,
+        "l6_weight": 0
+      },
+      "arm_mse": 0.24888643956184386,
+      "gripper_acc": 0.542,
+      "improvement_pct": 5.831883526337573,
+      "pretrained": true
+    },
+    {
+      "name": "L5=0.01_NOVEL",
+      "config": {
+        "l3_weight": 0,
+        "l5_weight": 0.01,
+        "l6_weight": 0
+      },
+      "arm_mse": 0.26013930010795594,
+      "gripper_acc": 0.542,
+      "improvement_pct": 1.5742763845677794,
+      "pretrained": true
+    },
+    {
+      "name": "L5=0.05_NOVEL",
+      "config": {
+        "l3_weight": 0,
+        "l5_weight": 0.05,
+        "l6_weight": 0
+      },
+      "arm_mse": 0.2646551587581635,
+      "gripper_acc": 0.772,
+      "improvement_pct": -0.1343337916233279,
+      "pretrained": true
+    },
+    {
+      "name": "L6=0.005_NOVEL",
+      "config": {
+        "l3_weight": 0,
+        "l5_weight": 0,
+        "l6_weight": 0.005
+      },
+      "arm_mse": 0.2587701749801636,
+      "gripper_acc": 0.758,
+      "improvement_pct": 2.0922955049663923,
+      "pretrained": true
+    },
+    {
+      "name": "L6=0.01_NOVEL",
+      "config": {
+        "l3_weight": 0,
+        "l5_weight": 0,
+        "l6_weight": 0.01
+      },
+      "arm_mse": 0.26721817517280577,
+      "gripper_acc": 0.712,
+      "improvement_pct": -1.1040709483878368,
+      "pretrained": true
+    },
+    {
+      "name": "L6=0.05_NOVEL",
+      "config": {
+        "l3_weight": 0,
+        "l5_weight": 0,
+        "l6_weight": 0.05
+      },
+      "arm_mse": 0.2578112244606018,
+      "gripper_acc": 0.808,
+      "improvement_pct": 2.4551218782213953,
+      "pretrained": true
+    },
+    {
+      "name": "L5=0.01+L6=0.005_NOVEL",
+      "config": {
+        "l3_weight": 0,
+        "l5_weight": 0.01,
+        "l6_weight": 0.005
+      },
+      "arm_mse": 0.26764853310585024,
+      "gripper_acc": 0.79,
+      "improvement_pct": -1.2669002131546945,
+      "pretrained": true
+    },
+    {
+      "name": "L5=0.005+L6=0.005_NOVEL",
+      "config": {
+        "l3_weight": 0,
+        "l5_weight": 0.005,
+        "l6_weight": 0.005
+      },
+      "arm_mse": 0.27658603620529176,
+      "gripper_acc": 0.81,
+      "improvement_pct": -4.6484738912288615,
+      "pretrained": true
+    },
+    {
+      "name": "ACTOR_L3=0.01_L5=0.005_L6=0.005",
+      "config": {
+        "l3_weight": 0.01,
+        "l5_weight": 0.005,
+        "l6_weight": 0.005
+      },
+      "arm_mse": 0.2575409536361694,
+      "gripper_acc": 0.786,
+      "improvement_pct": 2.557380942714366,
+      "pretrained": true
+    },
+    {
+      "name": "ACTOR_L3=0.005_L5=0.01_L6=0.005",
+      "config": {
+        "l3_weight": 0.005,
+        "l5_weight": 0.01,
+        "l6_weight": 0.005
+      },
+      "arm_mse": 0.26893987560272214,
+      "gripper_acc": 0.746,
+      "improvement_pct": -1.7554896713304877,
+      "pretrained": true
+    },
+    {
+      "name": "FROM_SCRATCH_baseline",
+      "config": {
+        "l3_weight": 0,
+        "l5_weight": 0,
+        "l6_weight": 0
+      },
+      "arm_mse": 0.27604568815231323,
+      "gripper_acc": 0.556,
+      "improvement_pct": -4.444029010749322,
+      "pretrained": false
+    },
+    {
+      "name": "FROM_SCRATCH_L5=0.01",
+      "config": {
+        "l3_weight": 0,
+        "l5_weight": 0.01,
+        "l6_weight": 0
+      },
+      "arm_mse": 0.274229950428009,
+      "gripper_acc": 0.594,
+      "improvement_pct": -3.757030547478626,
+      "pretrained": false
+    }
+  ]
+}
